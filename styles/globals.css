@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ReactModal__Overlay--after-open {
+  z-index: 999;
+}
+
+/* width */
+#scroll-none ::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* font-family: "Work Sans", sans-serif; */
+  /* font-optical-sizing: auto; */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  color: black;
+  background: #f5f5f5;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.icon {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-container .icon {
+  opacity: 1;
+}
+
+.icon-container .icon {
+  opacity: 1;
+}
+@media screen and (min-width: 100px) and (max-width: 768px) {
+  .main-blue-sidebar {
+      overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+  .main-blue-sidebar::-webkit-scrollbar {
+      display: none;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 1800px) {
+  .main-blue-sidebar {
+      height: 70vh;
+      overflow-y: auto;
+      /* margin-top: 5%; */
+  }
+
+  .main-blue-sidebar::-webkit-scrollbar {
+      width: 6px;
+      background-color: transparent;
+  }
+
+  .main-blue-sidebar::-webkit-scrollbar-thumb {
+      background-color: #E4EBF1;
+      border-radius: 5px;
+  }
+}
