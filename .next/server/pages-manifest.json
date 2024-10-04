@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/dashboard/users": "pages/dashboard/users.js",
-  "/dashboard/rewards": "pages/dashboard/rewards.js",
-  "/dashboard/ranking": "pages/dashboard/ranking.js"
-}
+{"/_app":"pages/_app.js","/api/hello":"pages/api/hello.js","/dashboard/aboutUs":"pages/dashboard/aboutUs.html","/dashboard/addDiscount":"pages/dashboard/addDiscount.html","/dashboard/addEvent":"pages/dashboard/addEvent.html","/dashboard/contactUs":"pages/dashboard/contactUs.html","/dashboard/discount":"pages/dashboard/discount.html","/dashboard":"pages/dashboard.html","/dashboard/events":"pages/dashboard/events.html","/dashboard/leaderBoard":"pages/dashboard/leaderBoard.html","/dashboard/manageFreeAttendance":"pages/dashboard/manageFreeAttendance.html","/dashboard/privacyAndPolicy":"pages/dashboard/privacyAndPolicy.html","/dashboard/publicAffiliateUser":"pages/dashboard/publicAffiliateUser.html","/dashboard/publicRelationUser":"pages/dashboard/publicRelationUser.html","/dashboard/ranking":"pages/dashboard/ranking.html","/_error":"pages/_error.js","/dashboard/termsAndCondition":"pages/dashboard/termsAndCondition.html","/":"pages/index.html","/dashboard/rewards":"pages/dashboard/rewards.html","/dashboard/users":"pages/dashboard/users.html","/signin":"pages/signin.html","/_document":"pages/_document.js","/404":"pages/404.html"}

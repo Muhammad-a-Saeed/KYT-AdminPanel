@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST='{"dashboard\\\\aboutUs.js -> jodit-react":{"id":2911,"files":["static/chunks/0ccabe3f.823e429e6a1127e0.js"]},"dashboard\\\\contactUs.js -> jodit-react":{"id":2911,"files":["static/chunks/0ccabe3f.823e429e6a1127e0.js"]},"dashboard\\\\privacyAndPolicy.js -> jodit-react":{"id":2911,"files":["static/chunks/0ccabe3f.823e429e6a1127e0.js"]},"dashboard\\\\termsAndCondition.js -> jodit-react":{"id":2911,"files":["static/chunks/0ccabe3f.823e429e6a1127e0.js"]}}';
